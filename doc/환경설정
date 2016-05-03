@@ -1,0 +1,40 @@
+1.github 가입
+  -https://www.github.com/
+  -Collaborators 등록
+  
+2.python 다운로드 및 설치
+  -https://www.python.org/downloads/
+  -python 3.4.4
+  -Windows x86-64 MSI installer
+  -Windows x86 MSI installer
+  -설치폴더: C:\dev_study\python34
+  -cmd 창에서 python 엔터
+     ->interactive mode(interpreter 에게 명령)
+     ->print('hello world!') 엔터
+     ->help print 엔터 또는 help() 엔터 print 엔터(python 의 키워드, 함수, 모듈, 입력한 값 등을 볼수 있음) 
+     ->help 엔터 후 아무 값 없이 엔터 치면 help 나옴
+     ->exit() 엔터 -> interactive mode 나감
+
+3.pycharm 다운로드 및 설치
+  -https://www.jetbrains.com/pycharm/download/#section=windows
+  -Community 버전 다운로드(free)
+  -설치폴더: C:\dev_study\pycharm
+
+4.git 다운로드 및 설치
+  -https://git-scm.com/
+  -설치폴더: C:\dev_study\git
+  
+5.pycharm 환경설정
+  -configure>settings>code style
+    =>line separator : unix and os x
+    =>right margin : 200
+  -configure>settings>version control>git
+    =>설치된 git.exe 선택 및 테스트 버튼 클릭
+  -configure>settings>version control>github
+    =>가입된 id/password 로 테스트 버튼 클릭
+  -configure>settings>version control>project interpreter
+    =>설치된 python.exe 설정
+  -configure>settings>version control>editor>file encodings
+    =>ide encoding :  UTF-8
+    =>project encoding :  UTF-8
+    =>default decoding for properties file :  UTF-8
