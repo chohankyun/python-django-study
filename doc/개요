@@ -14,3 +14,7 @@ Perl의 '하나 이상의 해결법이 존재한다' 와는 정반대로 '가장
 아름다운 것이 추한 것보다 낫다.(Beautiful is better than ugly)
 명시적인 것이 암시적인 것보다 낫다. (Explicit is better than implicit)
 간결한 것이 복잡한 것보다 낫다. (Simple is better than complex)
+
+코딩 규칙
+PEP 8 -- <a href="https://www.python.org/dev/peps/pep-0008/">Style Guide for Python Code</a>
+
