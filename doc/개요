@@ -1,7 +1,10 @@
 창시자 
 귀도 반 로섬(Guido van Rossum)
-1989년 크리스마스 주에, 연구실이 닫혀있어서 심심한 김에 만들었다.
-이름은 귀도가 즐겨 보던 영국의 6인조 코미디 그룹 몬티 파이선에서 따왔다고 한다.
+1989년 크리스마스 주에, 연구실이 닫혀있어서 심심한 김에 구현시작
+1991년에 발표 python version 0.9.0
+이름은 귀도가 즐겨 보던 영국의 6인조 코미디 그룹 몬티 파이선에서 따옴
+CWI(English: National Research Institute for Mathematics and Computer Science) 에서 만든 ABC 언어에 영향을 많이 받음
+귀도 반 로섬 이 1980년 초반 CWI(Centrum Wiskunde & Informatica) 에서 ABC 언어 인터프리터 개발
          
 개요
 Python is Interpreted: 이것은 인터프리터에 의해 실행시에 처리되고 실행하기 전에 프로그램을 컴파일 할 필요가 없다. 이는 PERL과 PHP와 유사하다.
