@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>user list</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>사용자 리스트</h2>
+    <br>
+    <table class="table table-striped text-center">
+        <tr>
+            <td>사용자명</td>
+            <td>사용자 주소</td>
+            <td>사용자 전화</td>
+            <td><a class="btn btn-primary" href="/chohankyun/form/">추가</a></td>
+        </tr>
+        {% for user in object_list %}
+        <tr>
+            <td><a href="/chohankyun/id/{{ user.id}}/">{{ user.name }}</a></td>
+            <td>{{ user.address }}</td>
+            <td>{{ user.phone }}</td>
+            <td><a href="/chohankyun/delete/id/{{ user.id }}" class="btn btn-danger">삭제</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <hr>
+    <div class="text-center">
+        {% include 'pagination.html' %}
+    </div>
+</div>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
