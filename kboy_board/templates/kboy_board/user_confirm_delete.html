@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>사용자 삭제</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="col-sm-6">
+        <h2>사용자 삭제</h2>
+        <br>
+        <form action="" method="post">{% csrf_token %}
+            <p>다음의 사용자를 삭제 하시겠습니까? "{{ object.name }}"?</p>
+            <input type="submit" value="Confirm"/>
+        </form>
+    </div>
+</div>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
